@@ -19,8 +19,7 @@ body {
 .container {
     max-width: 1440px;
     margin-inline: auto;
-    border: 1px solid black;
-    background: #FFF;
+    /* border: 1px solid black; */
     overflow: hidden;
 }
 
@@ -39,7 +38,7 @@ body {
 
 /* ----------header-nave-styles-------- */
 nav {
-    padding: 50px 120px;
+    padding: 50px 120px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,6 +73,119 @@ nav ul li a {
     color: #3A3A3A;
     text-decoration: none;
 }
+
+
+/* ----------header-banner-styles------------ */
+.header-banner {
+    padding: 0 120px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-left{
+    width: 50%;
+}
+
+
+
+.banner-title {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+.banner-button {
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 41px;
+    background: #E02C6D;
+    cursor: pointer;
+    
+}
+
+.banner-button button {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    background: #E02C6D;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.banner-button button:hover {
+    padding-right: 15px;
+}
+
+
+.banner-right {
+    width: 40%;
+    background-image: url('./images/Circle\ design.svg');
+    background-position: left, bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+}
+
+.banner-right img {
+    width: 100%;
+    
+    
+}
+
+
+/* ----------sponsor styles------------ */
+
+.sponsors-container {
+    margin-top: 70px;
+    padding: 42px  165px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    flex-wrap: wrap;
+    border-top: 1px  solid transparent ;
+    border-bottom: 1px  solid transparent ;
+    border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+    border-image-slice: 1;
+    transition: 0.5s;
+
+
+    
+}
+
+.sponsors-container img {
+
+    transition: 0.5s ease-out;
+    
+}
+
+.sponsors-container img:hover {
+    transform: scale(1.1) translateY(-3px);
+}
+
+
+
+
+
+
+
+
 
 
 
