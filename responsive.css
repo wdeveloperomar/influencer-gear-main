@@ -1,0 +1,18 @@
+
+/* ------------------large device styles-------------- */
+
+@media screen and (max-width: 992px) {
+    
+    nav {
+        padding: 30px 30px ;
+    }
+
+    .responsive-menu {
+        display: block;
+    }
+
+    .nav-menu li {
+        display: none;
+    }
+
+}

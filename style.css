@@ -14,3 +14,69 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+
+.container {
+    max-width: 1440px;
+    margin-inline: auto;
+    border: 1px solid black;
+    background: #FFF;
+    overflow: hidden;
+}
+
+.responsive-menu {
+    display: none;
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 6px 5px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+
+}
+
+
+
+/* ----------header-nave-styles-------- */
+nav {
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav > ul {
+    display: flex;
+    gap: 34px;
+}
+
+nav > ul .nav-menu {
+    display: flex;
+    gap: 34px;
+}
+
+nav ul li {
+    list-style: none;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+nav ul li a {
+    color: #3A3A3A;
+    text-decoration: none;
+}
+
+
+
+
+
+
